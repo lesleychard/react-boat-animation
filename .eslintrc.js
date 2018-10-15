@@ -9,6 +9,10 @@ module.exports = {
             jsx: true,
         },
     },
+    env: {
+        browser: true,
+        node: true,
+    },
     extends: [
         'airbnb',
         require.resolve('./config/eslint/style.js'),

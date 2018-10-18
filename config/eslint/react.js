@@ -2,6 +2,7 @@
 
 module.exports = {
     rules: {
+        'react/forbid-prop-types': 'off',
         'react/jsx-filename-extension': [
             1,
             {
@@ -12,5 +13,6 @@ module.exports = {
             },
         ],
         'react/jsx-indent': [4, 4],
+        'react/jsx-indent-props': [4, 4],
     },
 };

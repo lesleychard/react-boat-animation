@@ -1,8 +1,8 @@
 'use strict';
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const paths = require('./paths');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -18,6 +18,7 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js', '.json'],
+        modules: ['node_modules'],
     },
     module: {
         rules: [
@@ -74,6 +75,12 @@ module.exports = {
                         loader: 'json-loader',
                     },
                 ],
+            },
+            {
+                test: /\.svg$/,
+                use: {
+                    loader: 'svg-url-loader',
+                },
             },
         ],
     },

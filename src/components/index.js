@@ -1,2 +1,11 @@
-// eslint-disable-next-line
+export {default as BoatSvg} from './BoatSvg';
+export {default as ButtonLink} from './ButtonLink';
+export {default as CloudSvg} from './CloudSvg';
+export {default as Footer} from './Footer';
+export {default as IcebergScene} from './IcebergScene';
+export {default as IcebergSvg} from './IcebergSvg';
+export {default as Logo} from './Logo';
+export {default as MobilePhoneSvg} from './MobilePhoneSvg';
 export {default as Nav} from './Nav';
+export {default as SocialIcon} from './SocialIcon';
+export {default as Svg} from './Svg';

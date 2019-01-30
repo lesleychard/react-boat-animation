@@ -24,7 +24,7 @@ const palette = {
     primary: {
         contrastText: WHITE,
         dark: darken(PRIMARY, 0.25),
-        light: lighten(PRIMARY, 0.25),
+        light: lighten(PRIMARY, 0.6),
         main: PRIMARY,
     },
     secondary: {

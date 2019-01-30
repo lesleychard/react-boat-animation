@@ -13,16 +13,22 @@
     "chalk": "^2.4.1",
     "classnames": "^2.2.6",
     "color": "^3.1.0",
+    "file-loader": "^2.0.0",
+    "gsap": "^2.0.2",
     "jss": "^9.8.7",
     "jss-extend": "^6.2.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-jss": "^8.6.1",
+    "react-move": "^2.8.0",
     "react-router-dom": "^4.3.1",
+    "svg-inline-loader": "^0.8.0",
+    "svg-url-loader": "^2.3.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
+    "webpack-dev-server": "^3.1.9",
+    "xmlserializer": "^0.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
